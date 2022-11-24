@@ -33,7 +33,7 @@ app.use(helmet())
 app.use(xss())
 
 app.get('/', (req, res) => {
-	res.send('NOTES APP API')
+	res.send(' APP API')
 })
 
 // ROUTES
